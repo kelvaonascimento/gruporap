@@ -33,7 +33,7 @@ import {
 import { Logo } from "@/components/logo";
 import { SectionReveal } from "@/components/section-reveal";
 import { AnimatedCounter } from "@/components/animated-counter";
-import { brand, projects, fairmont, smartfit, innside, rioafrica } from "@/lib/data";
+import { brand, projects, fairmont, smartfit, innside, rioafrica, pacaembu } from "@/lib/data";
 
 // ---------------------------------------------------------------------------
 // Geometric background shapes
@@ -133,7 +133,7 @@ function SectionGeometricAccent({ variant = "left" }: { variant?: "left" | "righ
 // ---------------------------------------------------------------------------
 // Project card data helper
 // ---------------------------------------------------------------------------
-function getProjectMeta(project: typeof fairmont | typeof smartfit | typeof innside | typeof rioafrica) {
+function getProjectMeta(project: typeof fairmont | typeof smartfit | typeof innside | typeof rioafrica | typeof pacaembu) {
   if (project.id === "fairmont") {
     return {
       badge: "Proposta Técnica",
@@ -160,6 +160,16 @@ function getProjectMeta(project: typeof fairmont | typeof smartfit | typeof inns
       metric: "R$ 70M",
       metricLabel: "Custo total",
       detail: "19 meses",
+      detailLabel: "Prazo",
+      icon: Building2,
+    };
+  }
+  if (project.id === "pacaembu") {
+    return {
+      badge: "Proposta Técnica e Comercial",
+      metric: "R$ 109M",
+      metricLabel: "Custo total",
+      detail: "15 meses",
       detailLabel: "Prazo",
       icon: Building2,
     };

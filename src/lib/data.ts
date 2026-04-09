@@ -592,4 +592,238 @@ export const rioafrica = {
   ],
 };
 
-export const projects = [fairmont, smartfit, innside, rioafrica];
+// ============================================
+// PROJECT 5: PACAEMBU - MODERNIZAÇÃO
+// ============================================
+export const pacaembu = {
+  id: "pacaembu",
+  title: "Complexo Pacaembu",
+  subtitle: "Modernização",
+  type: "Proposta Técnica e Comercial",
+  date: "2026",
+  client: "Complexo Pacaembu",
+  project: "Modernização do Complexo Pacaembu",
+
+  // ── Introdução ──
+  introducao:
+    "O presente documento tem por objetivo apresentar a proposta técnica e comercial para execução da Modernização do Complexo do Pacaembu, considerando o projeto previamente desenvolvido. Ao longo deste material serão apresentadas o projeto, o escopo dos serviços, a empresa, a estrutura organizacional da equipe envolvida e o detalhamento das atividades contempladas na proposta. O objetivo é demonstrar, de forma clara, nossa capacidade técnica, experiência e abordagem de execução e implantação, garantindo transparência quanto às responsabilidades, etapas do projeto e estrutura de gestão previstas para a realização da obra.",
+
+  // ── Imagens do Projeto ──
+  imagensProjeto: [
+    { src: "/images/pacaembu/page5_img1.jpeg", caption: "Boulevard" },
+    { src: "/images/pacaembu/page5_img2.jpeg", caption: "Fachada" },
+    { src: "/images/pacaembu/page6_img1.jpeg", caption: "Aérea" },
+    { src: "/images/pacaembu/page6_img2.jpeg", caption: "Tênis" },
+    { src: "/images/pacaembu/page7_img1.jpeg", caption: "Acesso Oeste" },
+    { src: "/images/pacaembu/page7_img2.jpeg", caption: "Acesso Leste" },
+    { src: "/images/pacaembu/page8_img1.jpeg", caption: "Terraço" },
+    { src: "/images/pacaembu/page8_img2.jpeg", caption: "Passarela" },
+    { src: "/images/pacaembu/page9_img1.jpeg", caption: "Lobby" },
+    { src: "/images/pacaembu/page9_img2.jpeg", caption: "Lobby" },
+    { src: "/images/pacaembu/page10_img1.jpeg", caption: "Lobby" },
+    { src: "/images/pacaembu/page10_img2.jpeg", caption: "Lobby" },
+    { src: "/images/pacaembu/page11_img1.jpeg", caption: "Restaurante" },
+    { src: "/images/pacaembu/page11_img2.jpeg", caption: "Restaurante" },
+    { src: "/images/pacaembu/page12_img1.jpeg", caption: "Corredores" },
+    { src: "/images/pacaembu/page12_img2.jpeg", caption: "Acesso Praça" },
+    { src: "/images/pacaembu/page13_img1.jpeg", caption: "Suíte Standard" },
+    { src: "/images/pacaembu/page13_img2.jpeg", caption: "Suíte Standard" },
+    { src: "/images/pacaembu/page14_img1.jpeg", caption: "Suíte Média" },
+    { src: "/images/pacaembu/page14_img2.jpeg", caption: "Suíte Média" },
+  ],
+
+  // ── Plantas ──
+  plantas: [
+    { src: "/images/pacaembu/page15_img1.jpeg", titulo: "Esplanada", detalhe: "Salão Capivari, Vestiários, Áreas Locáveis" },
+    { src: "/images/pacaembu/page16_img1.jpeg", titulo: "Mezanino", detalhe: "Área Técnica, Áreas Locáveis" },
+    { src: "/images/pacaembu/page17_img1.jpeg", titulo: "1º Pavimento", detalhe: "Suítes Hotel, Backoffice, Áreas Locáveis" },
+    { src: "/images/pacaembu/page18_img1.jpeg", titulo: "2º Pavimento", detalhe: "Suítes Hotel, SPA, Saunas, Massagem" },
+    { src: "/images/pacaembu/page19_img1.jpeg", titulo: "3º Pavimento", detalhe: "Lobby, Restaurante, Sala de Convenções, Suítes" },
+    { src: "/images/pacaembu/page20_img1.jpeg", titulo: "Terraço", detalhe: "Restaurantes, Piscina, Solário, Vestiários" },
+  ],
+
+  // ── Situação Atual ──
+  situacaoAtual: [
+    { bloco: "Bloco Leste", imagens: ["/images/pacaembu/page22_img1.jpeg", "/images/pacaembu/page22_img2.jpeg", "/images/pacaembu/page23_img1.jpeg", "/images/pacaembu/page23_img2.jpeg", "/images/pacaembu/page23_img3.jpeg"] },
+    { bloco: "Bloco Oeste", imagens: ["/images/pacaembu/page24_img1.jpeg", "/images/pacaembu/page24_img2.jpeg", "/images/pacaembu/page25_img1.jpeg", "/images/pacaembu/page25_img2.jpeg", "/images/pacaembu/page25_img3.jpeg"] },
+    { bloco: "Bloco Central — 1º Pavimento", imagens: ["/images/pacaembu/page26_img1.jpeg", "/images/pacaembu/page26_img2.jpeg"] },
+    { bloco: "Bloco Central — 2º Pavimento", imagens: ["/images/pacaembu/page27_img1.jpeg", "/images/pacaembu/page27_img2.jpeg"] },
+    { bloco: "Bloco Central — 3º Pavimento", imagens: ["/images/pacaembu/page28_img1.jpeg", "/images/pacaembu/page28_img2.jpeg"] },
+    { bloco: "Bloco Central — Terraço", imagens: ["/images/pacaembu/page29_img1.jpeg", "/images/pacaembu/page29_img2.jpeg"] },
+  ],
+
+  // ── Escopo da Obra ──
+  escopo: [
+    {
+      categoria: "Shell: Bloco Leste",
+      itens: ["Estrutura – Lajes, vigas e pilares", "Insertes Metálicos", "Civil", "Impermeabilização", "Acabamentos (Pintura e Revestimentos)", "Drywall", "Marmoraria", "Portas", "Acessibilidade", "Serralheria", "Equipamentos Salão Capivari", "Instalações Elétricas", "Instalações Hidrossanitárias", "SPCI", "Luminárias", "Finalizações"],
+      excluso: ["Fornecimento de louças e metais (já comprado)", "Escadas metálicas (já contratado)", "Caixilhos metálicos (já contratado)", "Fornecimento de mesas e cadeiras – Salão Capivari (a cargo do cliente)", "Elevadores (já contratado)"],
+      estimativas: ["SPDA (sem projeto)", "Gás (sem projeto)", "SDAI (sem projeto)"],
+    },
+    {
+      categoria: "Shell: Bloco Oeste",
+      itens: ["Estrutura - Muro de arrimo e Estrutura de apoio para estrutura metálica", "Civil", "Impermeabilização", "Acabamentos", "Serralheria", "Luminárias"],
+      excluso: ["Escadas metálicas (já contratado)", "Caixilhos metálicos (já contratado)", "Elevadores (já contratado)"],
+      estimativas: [],
+    },
+    {
+      categoria: "Shell: Bloco Central",
+      itens: ["Civil", "Acabamentos", "Impermeabilização", "Reforço Estrutural", "Serralheria", "Luminárias"],
+      excluso: [],
+      estimativas: [],
+    },
+    {
+      categoria: "Implantação Bloco Oeste e Central (Hotel)",
+      itens: ["Civil", "Impermeabilização", "Forro e drywall", "Portas", "Revestimentos", "Pintura", "Marcenarias", "Mármores e granitos", "Instalações elétricas", "Instalações hidrossanitárias", "SPCI", "Automação + SDAI", "HAVC", "Louças e metais", "Caixilhos", "Grelhas", "Mobiliários", "Luminárias", "Paisagismo", "Equipamentos de cozinha", "Equipamentos de quartos/suítes", "Equipamentos de academia", "Equipamentos, mobiliários, louças e metais áreas operacionais laje serviço", "Acessibilidade", "Instalações piscina com prainha", "Instalações spa", "Instalações sauna úmida", "Instalações sauna seca", "Vidros e espelhos", "Persianas e cortinas", "Enxoval (OS&E)", "Comunicação visual", "Finalizações"],
+      excluso: ["Enxoval Áreas Comuns (sem memorial descritivo)", "Caixilhos metálicos (já contratado)", "Elevadores (já contratado)"],
+      estimativas: ["Enxoval Suítes (sem memorial descritivo)", "Equipamentos Suítes (sem memorial descritivo)", "Comunicação Visual (sem projeto detalhado)", "Persianas e Cortinas (sem definição de projeto)", "SPDA (sem projeto)"],
+    },
+  ],
+
+  // ── Incluso na Proposta ──
+  incluso: [
+    {
+      categoria: "Canteiro de obras e áreas de vivência",
+      itens: ["Mobilização e desmobilização de canteiro", "Divisória naval/tapume (200ml) para isolamentos de áreas do canteiro", "Escritório de engenharia e equipe administrativa com banheiro e ar condicionado, vestiários para equipe de obra, refeitório e área de vivência e armazenamento de materiais", "Itens para implantação e montagem de canteiro para equipe técnica, engenharia, refeitório, vestiário e depósito (mobiliários, equipamentos, louças e metais, etc.)", "Manutenção do canteiro (materiais de apoio para organização do canteiro)"],
+    },
+    {
+      categoria: "Serviços para implantação da obra e apoio operacional",
+      itens: ["Mobilização e desmobilização de equipe técnica", "Locação de caçamba de entulho", "Limpeza constante da obra (remoção de entulhos, sacos de entulho e descarte adequado das peças)", "Isolamentos pontuais com telas, cones, fitas zebradas, sinalizações, etc.", "Equipamento de proteção coletiva (EPI's e EPC's)"],
+    },
+    {
+      categoria: "Legalizações e documentos",
+      itens: ["Anotação de responsabilidade técnica - ART e RRT", "Seguro de responsabilidade civil e engenharia", "Performance Bond", "Cópias e plotagens de projetos", "Book de obra", "Laudo PGRCC (Plano De Gerenciamento De Resíduos Da Construção Civil)"],
+    },
+    {
+      categoria: "Equipamento de produção",
+      itens: ["Minigrua", "Diversos"],
+    },
+    {
+      categoria: "Proteções e isolamentos",
+      itens: ["Proteção de vão de elevadores e escadas", "Bandeja de proteção e linha de vida", "Proteções após instalações de revestimentos, vidros e mobiliários"],
+    },
+  ],
+
+  // ── Organograma Obra ──
+  orgObra: {
+    administrativo: ["Financeiro", "RH", "Suprimentos", "Planejamento", "Gerente", "Administrativo"],
+    engenharia: ["Engenheiro Coordenador", "Engenheiro Civil ou Arquiteto (Torre Leste)", "Engenheiro Civil ou Arquiteto (Torre Oeste e Hotel)", "Engenheiro de Planejamento", "Engenheiro de Instalações", "Auxiliar de Engenharia"],
+    areaTecnica: ["Mestre de Obras (Torre Leste)", "Mestre de Obras (Torre Oeste e Hotel)", "Técnico de Segurança", "Administrativo de Obra", "Almoxarife", "Segurança Patrimonial"],
+    operacao: ["Equipe 1 (Torre Leste)", "Equipe 2 (Torre Oeste)", "Equipe 3 (Torre Hotel)", "Equipe de implantação"],
+  },
+
+  // ── Prazos ──
+  prazo: {
+    mobilizacao: 20,
+    execucao: "15 meses",
+    checklistComissionamento: "1 mês",
+    duracaoTotal: 428,
+    inicio: "04/05/2026",
+    termino: "24/09/2027",
+  },
+
+  // ── Cronograma Macro ──
+  cronograma: {
+    blocoLeste: [
+      { tarefa: "Bloco Leste (total)", duracao: 195, inicio: "29/05/26", termino: "19/01/27", destaque: true },
+      { tarefa: "Estrutura", duracao: 100, inicio: "29/05/26", termino: "24/09/26" },
+      { tarefa: "Serralherias", duracao: 30, inicio: "24/06/26", termino: "28/07/26" },
+      { tarefa: "Instalações elétricas", duracao: 100, inicio: "24/06/26", termino: "17/10/26" },
+      { tarefa: "Instalações hidráulicas", duracao: 100, inicio: "24/06/26", termino: "17/10/26" },
+      { tarefa: "SPCI", duracao: 100, inicio: "24/06/26", termino: "17/10/26" },
+      { tarefa: "Vedações (alvenarias e drywalls)", duracao: 100, inicio: "24/06/26", termino: "17/10/26" },
+      { tarefa: "Impermeabilizações", duracao: 20, inicio: "19/10/26", termino: "11/11/26" },
+      { tarefa: "Acabamentos", duracao: 30, inicio: "11/11/26", termino: "16/12/26" },
+      { tarefa: "Corrimões e guarda-corpo", duracao: 40, inicio: "11/11/26", termino: "30/12/26" },
+      { tarefa: "Marmoraria", duracao: 7, inicio: "30/11/26", termino: "08/12/26" },
+      { tarefa: "Portas", duracao: 7, inicio: "08/12/26", termino: "15/12/26" },
+      { tarefa: "Luminárias", duracao: 25, inicio: "30/11/26", termino: "30/12/26" },
+      { tarefa: "Acessibilidade", duracao: 7, inicio: "17/12/26", termino: "26/12/26" },
+      { tarefa: "Louças e metais", duracao: 10, inicio: "17/12/26", termino: "30/12/26" },
+      { tarefa: "Equipamentos cozinha", duracao: 10, inicio: "17/12/26", termino: "30/12/26" },
+      { tarefa: "Limpeza final", duracao: 15, inicio: "30/12/26", termino: "19/01/27" },
+    ],
+    blocoOesteHotel: [
+      { tarefa: "Bloco Oeste e Hotel (total)", duracao: 405, inicio: "29/05/26", termino: "24/09/27", destaque: true },
+      { tarefa: "Reforço Estrutural", duracao: 30, inicio: "29/05/26", termino: "04/07/26" },
+      { tarefa: "Execução de contrapiso", duracao: 60, inicio: "29/05/26", termino: "08/08/26" },
+      { tarefa: "Instalações elétricas", duracao: 300, inicio: "29/05/26", termino: "24/05/27" },
+      { tarefa: "Instalações hidráulicas", duracao: 300, inicio: "29/05/26", termino: "24/05/27" },
+      { tarefa: "SPCI", duracao: 300, inicio: "29/05/26", termino: "24/05/27" },
+      { tarefa: "HAVC", duracao: 300, inicio: "29/05/26", termino: "24/05/27" },
+      { tarefa: "Vedações (alvenarias e drywalls)", duracao: 180, inicio: "18/06/26", termino: "19/01/27" },
+      { tarefa: "Impermeabilizações", duracao: 170, inicio: "22/07/26", termino: "12/02/27" },
+      { tarefa: "Forros de gesso", duracao: 180, inicio: "22/07/26", termino: "24/02/27" },
+      { tarefa: "Acabamentos", duracao: 180, inicio: "26/08/26", termino: "01/04/27" },
+      { tarefa: "Luminárias", duracao: 250, inicio: "12/09/26", termino: "10/07/27" },
+      { tarefa: "Louças", duracao: 180, inicio: "30/09/26", termino: "06/05/27" },
+      { tarefa: "Marmoraria", duracao: 150, inicio: "19/10/26", termino: "17/04/27" },
+      { tarefa: "Portas", duracao: 150, inicio: "30/09/26", termino: "01/04/27" },
+      { tarefa: "Marcenaria", duracao: 180, inicio: "05/11/26", termino: "11/06/27" },
+      { tarefa: "Automação", duracao: 140, inicio: "19/01/27", termino: "05/07/27" },
+      { tarefa: "Acessibilidade", duracao: 140, inicio: "19/01/27", termino: "05/07/27" },
+      { tarefa: "Vidros e espelhos", duracao: 140, inicio: "19/01/27", termino: "05/07/27" },
+      { tarefa: "Equipamentos e mobiliários", duracao: 60, inicio: "11/06/27", termino: "19/08/27" },
+      { tarefa: "Persianas e cortinas", duracao: 60, inicio: "11/06/27", termino: "19/08/27" },
+      { tarefa: "Comunicação Visual", duracao: 60, inicio: "11/06/27", termino: "19/08/27" },
+      { tarefa: "Paisagismo", duracao: 60, inicio: "11/06/27", termino: "19/08/27" },
+      { tarefa: "Limpeza, Montagem e Checklist", duracao: 30, inicio: "19/08/27", termino: "24/09/27" },
+    ],
+  },
+
+  // ── Proposta Comercial ──
+  propostaComercial: [
+    { id: "A", descricao: "Serviços Preliminares Gerais", valor: 5667470.75, percentual: 5 },
+    { id: "B", descricao: "Shell Bloco Leste", valor: 17711512.10, percentual: 16 },
+    { id: "C", descricao: "Shell Bloco Oeste", valor: 1052242.02, percentual: 0.96 },
+    { id: "D", descricao: "Shell Bloco Hotel", valor: 7271366.53, percentual: 7 },
+    { id: "E", descricao: "Bloco Hotel (Implantação)", valor: 77367418.47, percentual: 71 },
+  ],
+  custoTotal: 109070009.88,
+
+  // ── Reengenharias para Redução de Custo ──
+  reengenharias: [
+    { item: "Revestimento de Piso", descricao: "Substituição do piso em madeira natural por piso vinílico, amplamente adotado no setor hoteleiro, visando maior durabilidade, resistência à umidade, facilidade de manutenção e melhor relação custo-benefício." },
+    { item: "Automação", descricao: "Revisão do escopo de automação dos ambientes, com foco na racionalização dos sistemas previstos, visando redução de complexidade operacional, otimização de custos de implantação e manutenção." },
+    { item: "Marcenaria", descricao: "Substituição de acabamentos em lâmina natural de madeira por painéis em MDF com revestimento industrializado, garantindo maior padronização, facilidade de manutenção e redução de custos." },
+    { item: "Mobiliários", descricao: "Revisão das especificações de mobiliário, priorizando a substituição de peças assinadas por designers por mobiliário de linha padrão hoteleira, mantendo requisitos de desempenho e estética." },
+    { item: "Luminárias", descricao: "Adoção de luminárias técnicas padronizadas de mercado, priorizando eficiência luminotécnica, facilidade de manutenção e disponibilidade de reposição." },
+    { item: "Marmoraria", descricao: "Substituição por materiais de menor custo e maior disponibilidade. Exclusão de itens de alto impacto financeiro como banheiras esculpidas e revestimentos em mármore." },
+  ],
+
+  // ── Análise Comparativa ──
+  analiseComparativa: {
+    custoUHProjeto: 265000,
+    custoUHReengenharia: 110000,
+    reducaoPorApto: 155000,
+    reducaoTotal: 13485000,
+    valorFinal: 95858009.88,
+  },
+
+  // ── Certificações ──
+  certificacoes: [
+    "/images/pacaembu/page50_img1.png",
+    "/images/pacaembu/page50_img2.jpeg",
+  ],
+
+  // ── Imagens Institucionais ──
+  imagensInstitucionais: [
+    "/images/pacaembu/page48_img1.png",
+    "/images/pacaembu/page49_img1.jpeg",
+  ],
+
+  // ── Obras Executadas ──
+  obrasExecutadas: [
+    { nome: "Casa Livramento", local: "Gamboa, RJ", area: "2.500 m²", cliente: "Autonomy/Voile", prazo: "4 meses", escopo: "Restauro de fachada preservada e revitalização interna", imagens: ["/images/pacaembu/page51_img1.jpeg", "/images/pacaembu/page51_img2.jpeg"] },
+    { nome: "Smart Fit", local: "Vila Buarque, SP", area: "2.200 m²", cliente: "Smart Fit", prazo: "4 meses", escopo: "Construção de nova unidade", imagens: ["/images/pacaembu/page52_img1.jpeg", "/images/pacaembu/page52_img2.jpeg", "/images/pacaembu/page52_img3.jpeg", "/images/pacaembu/page52_img4.jpeg"] },
+    { nome: "Transamerica", local: "Alameda Santos, SP", area: "3.750 m²", cliente: "Atlantica", prazo: "10 meses", escopo: "Retrofit de áreas comuns do hotel (restaurante, lobby, área administrativa e salas de eventos)", imagens: ["/images/pacaembu/page53_img1.jpeg", "/images/pacaembu/page53_img2.jpeg", "/images/pacaembu/page53_img3.jpeg", "/images/pacaembu/page53_img4.jpeg"] },
+    { nome: "Cyan", local: "Itupeva, SP", area: "6.000 m²", cliente: "Atlântica", prazo: "16 meses", escopo: "Construção de áreas sociais e backoffice, retrofit de áreas comuns e apartamentos e implantação completa", imagens: ["/images/pacaembu/page54_img1.jpeg", "/images/pacaembu/page54_img2.jpeg", "/images/pacaembu/page54_img3.jpeg", "/images/pacaembu/page54_img4.jpeg"] },
+    { nome: "Pullman Ibirapuera", local: "Ibirapuera, SP", area: "4.000 m²", cliente: "Accor", prazo: "4 meses", escopo: "Retrofit e implantação dos apartamentos e corredores", imagens: ["/images/pacaembu/page55_img1.jpeg", "/images/pacaembu/page55_img2.jpeg"] },
+    { nome: "Ed. Martins Fontes", local: "Bela Vista, SP", area: "4.000 m²", cliente: "Belong Stay", prazo: "9 meses (previsão para 09/26)", escopo: "Retrofit e implantação de prédio comercial para short stay", imagens: ["/images/pacaembu/page56_img1.jpeg", "/images/pacaembu/page56_img2.jpeg"] },
+    { nome: "Refúgio Piemonté", local: "Atibaia, SP", area: "3.500 m²", cliente: "Grupo RAP inc", prazo: "18 meses (previsão para 04/27)", escopo: "Construção de condomínio de casas de médio e alto padrão", imagens: ["/images/pacaembu/page57_img1.jpeg", "/images/pacaembu/page57_img2.jpeg", "/images/pacaembu/page57_img3.jpeg", "/images/pacaembu/page57_img4.jpeg"] },
+    { nome: "Aya Home Resort", local: "Ribeirão Pires, SP", area: "13.500 m²", cliente: "Grupo RAP inc", prazo: "26 meses (previsão para 02/28)", escopo: "Construção de empreendimento residencial com ampla área de lazer", imagens: ["/images/pacaembu/page58_img1.jpeg", "/images/pacaembu/page58_img2.jpeg", "/images/pacaembu/page58_img3.jpeg", "/images/pacaembu/page58_img4.jpeg"] },
+    { nome: "Smart Fit Vaz Lobo", local: "Vaz Lobo, RJ", area: "3.000 m²", cliente: "Smart Fit", prazo: "5 meses", escopo: "Construção de nova unidade", imagens: ["/images/pacaembu/page59_img1.jpeg", "/images/pacaembu/page59_img2.jpeg"] },
+  ],
+};
+
+export const projects = [fairmont, smartfit, innside, rioafrica, pacaembu];
