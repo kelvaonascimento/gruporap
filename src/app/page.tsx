@@ -33,7 +33,7 @@ import {
 import { Logo } from "@/components/logo";
 import { SectionReveal } from "@/components/section-reveal";
 import { AnimatedCounter } from "@/components/animated-counter";
-import { brand, projects, fairmont, smartfit, innside } from "@/lib/data";
+import { brand, projects, fairmont, smartfit, innside, rioafrica } from "@/lib/data";
 
 // ---------------------------------------------------------------------------
 // Geometric background shapes
@@ -133,7 +133,7 @@ function SectionGeometricAccent({ variant = "left" }: { variant?: "left" | "righ
 // ---------------------------------------------------------------------------
 // Project card data helper
 // ---------------------------------------------------------------------------
-function getProjectMeta(project: typeof fairmont | typeof smartfit | typeof innside) {
+function getProjectMeta(project: typeof fairmont | typeof smartfit | typeof innside | typeof rioafrica) {
   if (project.id === "fairmont") {
     return {
       badge: "Proposta Técnica",
@@ -152,6 +152,16 @@ function getProjectMeta(project: typeof fairmont | typeof smartfit | typeof inns
       detail: "Semana 19",
       detailLabel: "Período",
       icon: Percent,
+    };
+  }
+  if (project.id === "rioafrica") {
+    return {
+      badge: "Proposta Técnica",
+      metric: "R$ 70M",
+      metricLabel: "Custo total",
+      detail: "19 meses",
+      detailLabel: "Prazo",
+      icon: Building2,
     };
   }
   return {
@@ -620,7 +630,7 @@ export default function Home() {
             </div>
           </SectionReveal>
 
-          <div className="mt-16 grid gap-8 md:grid-cols-3">
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {projects.map((project, i) => {
               const meta = getProjectMeta(project);
               return (
