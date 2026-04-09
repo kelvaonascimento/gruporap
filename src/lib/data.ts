@@ -311,4 +311,285 @@ export const innside = {
   ],
 };
 
-export const projects = [fairmont, smartfit, innside];
+// ============================================
+// PROJECT 4: RIO AFRICA - PRÉ CONSTRUÇÃO
+// ============================================
+export const rioafrica = {
+  id: "rioafrica",
+  title: "Centro Cultural Rio África",
+  subtitle: "Pré Construção",
+  type: "Proposta Técnica",
+  date: "2026",
+  client: "Centro Cultural Rio África",
+  project: "Centro Cultural Rio África",
+
+  // ── Proposta Comercial Obra (META) ──
+  custoObra: {
+    despesasIndiretas: 8000000,
+    contratacaoPMG: 51640000,
+    taxaAdministracao: 5600000,
+    taxaAdministracaoPercent: 8,
+    imposto: 4760000,
+    impostoPercent: 7,
+    total: 70000000,
+    nota: "Reajuste anual conforme INCC",
+  },
+
+  // ── Prazos de Obra ──
+  prazo: {
+    mobilizacao: 30,
+    execucao: "19 meses",
+    checklistComissionamento: "1 mês",
+  },
+
+  // ── Organograma Obra ──
+  orgObra: {
+    administrativo: [
+      { area: "Administrativo", nome: "Guilherme Vieira e Equipe" },
+      { area: "RH", nome: "Mariana Bianchi e Equipe" },
+      { area: "Suprimentos", nome: "Rodrigo Lima e Equipe" },
+      { area: "Planejamento", nome: "Larissa Gomes e Equipe" },
+      { area: "Financeiro", nome: "Rafaela Alcântara e Equipe" },
+    ],
+    tecnico: [
+      { role: "Gerente", nome: "Mariana Migotto" },
+      { role: "Engenheiro Coordenador", nome: "Guilherme Vicente" },
+      { role: "Engenheiro de Obra", nome: "Barbara Dias" },
+      { role: "Engenheiro de Planejamento", nome: "Jonathan Silva" },
+      { role: "Engenheiro de Instalações", nome: "Fábio Fernandes" },
+      { role: "Auxiliar de Engenharia", nome: "Lucas de Souza" },
+    ],
+    operacao: [
+      { role: "Mestre de Obras", nome: "Ariovaldo Alcântara" },
+      { role: "Encarregados para cada disciplina", nome: "A contratar" },
+      { role: "Técnico de Segurança", nome: "Viviane Oliveira" },
+      { role: "Administrativo de Obra", nome: "Camila Rodriguez" },
+      { role: "Almoxarife", nome: "Mauricio de Santana" },
+      { role: "Segurança Patrimonial", nome: "A contratar" },
+      { role: "Financeiro", nome: "Mariana Souza" },
+    ],
+  },
+
+  // ── Pré Construção ──
+  preConstrucao: {
+    introducao:
+      "O presente documento tem por objetivo apresentar proposta para a execução dos serviços de pré-construção, com foco na otimização e redução de custos do empreendimento. Para isso, serão realizadas análises críticas dos projetos, compatibilização técnica e proposição de ajustes e soluções construtivas que promovam maior eficiência, redução de prazo, racionalização de recursos e mitigação de riscos, estabelecendo bases sólidas para a futura execução da obra.",
+    planoAtaque: [
+      {
+        etapa: "Análise da Curva ABC",
+        descricao:
+          "Realização da análise da Curva ABC com base no orçamento do empreendimento, visando identificar os itens de maior impacto financeiro e priorizar ações de otimização de custos.",
+      },
+      {
+        etapa: "Identificação dos Itens da Curva A e B",
+        descricao:
+          "Mapeamento detalhado dos insumos e serviços classificados na Curva A e B, com foco nos elementos de maior representatividade econômica para direcionamento das estratégias de redução de custos.",
+      },
+      {
+        etapa: "Reunião com Fornecedores e Projetistas",
+        descricao:
+          "Condução de reuniões técnicas com fornecedores e projetistas para avaliação de alternativas, revisões de especificações e proposição de soluções mais eficientes sob o ponto de vista técnico e econômico.",
+      },
+      {
+        etapa: "Elaboração de Projetos",
+        descricao:
+          "Desenvolvimento ou revisão dos projetos a partir das alternativas técnicas definidas nas reuniões com fornecedores e projetistas, incorporando ajustes de especificações, materiais e soluções construtivas.",
+      },
+      {
+        etapa: "Devolução das Propostas com Alternativas",
+        descricao:
+          "Apresentação das propostas revisadas, contemplando as alternativas identificadas, com comparativos técnicos e financeiros para suporte à tomada de decisão.",
+      },
+      {
+        etapa: "Negociações Finais",
+        descricao:
+          "Realização das negociações finais com fornecedores, buscando a consolidação das melhores condições comerciais, prazos e escopo.",
+      },
+      {
+        etapa: "Valor Final",
+        descricao:
+          "Consolidação do valor final do empreendimento, considerando as otimizações implementadas e as condições negociadas, garantindo maior previsibilidade e controle orçamentário.",
+      },
+    ],
+  },
+
+  // ── Curva A ──
+  curvaA: [
+    {
+      categoria: "Estrutura de Concreto / Cobertura",
+      percentual: 13,
+      itens: [
+        "Lajes bubble e steel deck",
+        "Parede de concreto",
+        "Vigas, lajes e pilares em concreto moldado in loco",
+        "Cobertura em madeira",
+      ],
+    },
+    {
+      categoria: "Instalações",
+      percentual: 19,
+      itens: ["Hidráulicas", "Elétricas", "Combate a incêndio", "Climatização"],
+    },
+    {
+      categoria: "Revestimentos",
+      percentual: 9,
+      itens: ["Forros decorativos e acústicos", "Revestimentos decorativos"],
+    },
+  ],
+
+  // ── Custo dos Projetos ──
+  custoProjetos: [
+    { disciplina: "Fundações", valor: 59500 },
+    { disciplina: "Sistemas de Contenção", valor: 43200 },
+    { disciplina: "Estrutura em Concreto Armado", valor: 175000 },
+    { disciplina: "Estruturas Auxiliares", valor: 80000 },
+    { disciplina: "Instalações Elétricas", valor: 188000 },
+    { disciplina: "Instalações Hidráulicas e Esgotos", valor: 83200 },
+    { disciplina: "Combate a Incêndio", valor: 79500 },
+    { disciplina: "Controle de Acesso, CFTV e Alarme Perimetral", valor: 35000 },
+    { disciplina: "Climatização (Ar Condicionado e Exaustão)", valor: 49500 },
+    { disciplina: "Terraplanagem", valor: 32800 },
+    { disciplina: "Estrutura Metálica", valor: 293000 },
+    { disciplina: "Acústica", valor: 133500 },
+    { disciplina: "Impermeabilização", valor: 55000 },
+  ],
+  custoProjetosNota: "Arquitetura à cargo do cliente",
+
+  // ── Organograma Pré Construção ──
+  orgPreConstrucao: [
+    { role: "Diretoria", nome: "Rodrigo Pique" },
+    { role: "Gerente", nome: "Mariana Migotto" },
+    { role: "Engenheiro de Obras", nome: "" },
+    { role: "Engenheira de Orçamento", nome: "Larissa Gomes" },
+    { role: "Auxiliar de Engenharia", nome: "Matheus Afonso" },
+    { role: "Supervisor de Compras", nome: "Rodrigo Lima" },
+    { role: "Analista de Compras", nome: "Rafael Braz" },
+  ],
+
+  // ── Obras Executadas ──
+  obrasExecutadas: [
+    {
+      nome: "Casa Livramento",
+      local: "Gamboa, RJ",
+      valor: 2800000,
+      area: "500 m²",
+      cliente: "Autonomy/Voile",
+      prazo: "4 meses",
+      escopo: "Restauro de fachada preservada e revitalização interna",
+      imagens: ["/images/rioafrica/page25_img1.jpeg", "/images/rioafrica/page25_img2.jpeg"],
+    },
+    {
+      nome: "Smart Fit",
+      local: "Vila Buarque, SP",
+      valor: 3500000,
+      area: "1200 m²",
+      cliente: "Smart Fit",
+      prazo: "4 meses",
+      escopo: "Construção de nova unidade",
+      imagens: ["/images/rioafrica/page26_img1.jpeg", "/images/rioafrica/page26_img2.jpeg", "/images/rioafrica/page26_img3.jpeg", "/images/rioafrica/page26_img4.jpeg"],
+    },
+    {
+      nome: "Transamerica",
+      local: "Alameda Santos, SP",
+      valor: 11500000,
+      area: "1750 m²",
+      cliente: "Atlantica",
+      prazo: "8 meses",
+      escopo: "Retrofit de áreas comuns do hotel (restaurante, lobby, área administrativa e salas de eventos)",
+      imagens: ["/images/rioafrica/page27_img1.jpeg", "/images/rioafrica/page27_img2.jpeg", "/images/rioafrica/page27_img3.jpeg", "/images/rioafrica/page27_img4.jpeg"],
+    },
+    {
+      nome: "Cyan",
+      local: "Itupeva, SP",
+      valor: 26000000,
+      area: "4.000 m²",
+      cliente: "Atlântica",
+      prazo: "16 meses",
+      escopo: "Construção de áreas sociais e backoffice, retrofit de áreas comuns e apartamentos e implantação completa",
+      imagens: ["/images/rioafrica/page28_img1.jpeg", "/images/rioafrica/page28_img2.jpeg", "/images/rioafrica/page28_img3.jpeg", "/images/rioafrica/page28_img4.jpeg"],
+    },
+    {
+      nome: "Pullman Ibirapuera",
+      local: "Ibirapuera, SP",
+      valor: 3200000,
+      area: "2.000 m²",
+      cliente: "Accor",
+      prazo: "4 meses",
+      escopo: "Reforma dos apartamentos",
+      imagens: ["/images/rioafrica/page29_img1.jpeg", "/images/rioafrica/page29_img2.jpeg"],
+    },
+    {
+      nome: "Ed. Martins Fontes",
+      local: "Bela Vista, SP",
+      valor: 12500000,
+      area: "2.500 m²",
+      cliente: "Belong Stay",
+      prazo: "9 meses (previsão para 09/26)",
+      escopo: "Retrofit de prédio comercial para implantação hoteleira",
+      imagens: ["/images/rioafrica/page30_img1.jpeg", "/images/rioafrica/page30_img2.jpeg"],
+    },
+    {
+      nome: "Refúgio Piemonté",
+      local: "Atibaia, SP",
+      valor: 11500000,
+      area: "1.500 m²",
+      cliente: "Grupo RAP inc",
+      prazo: "18 meses (previsão para 04/27)",
+      escopo: "Construção de condomínio de casas de médio e alto padrão",
+      imagens: ["/images/rioafrica/page31_img1.jpeg", "/images/rioafrica/page31_img2.jpeg", "/images/rioafrica/page31_img3.jpeg", "/images/rioafrica/page31_img4.jpeg"],
+    },
+    {
+      nome: "Aya Home Resort",
+      local: "Ribeirão Pires, SP",
+      valor: 90000000,
+      area: "13.500 m²",
+      cliente: "Grupo RAP inc",
+      prazo: "26 meses (previsão para 02/28)",
+      escopo: "Construção de empreendimento residencial com ampla área de lazer",
+      imagens: ["/images/rioafrica/page32_img1.jpeg", "/images/rioafrica/page32_img2.jpeg", "/images/rioafrica/page32_img3.jpeg", "/images/rioafrica/page32_img4.jpeg"],
+    },
+    {
+      nome: "Smart Fit Vaz Lobo",
+      local: "Vaz Lobo, RJ",
+      valor: 4100000,
+      area: "1500 m²",
+      cliente: "Smart Fit",
+      prazo: "5 meses",
+      escopo: "Construção de nova unidade",
+      imagens: ["/images/rioafrica/page33_img1.jpeg", "/images/rioafrica/page33_img2.jpeg"],
+    },
+  ],
+
+  // ── Imagens do Projeto ──
+  imagensProjeto: [
+    { src: "/images/rioafrica/page4_img1.jpeg", caption: "Vista externa — Centro Cultural Rio África" },
+    { src: "/images/rioafrica/page4_img2.jpeg", caption: "Vista externa — perspectiva" },
+    { src: "/images/rioafrica/page5_img1.jpeg", caption: "Vista interna — espaço cultural" },
+    { src: "/images/rioafrica/page5_img2.jpeg", caption: "Vista interna — detalhes" },
+    { src: "/images/rioafrica/page6_img1.jpeg", caption: "Vista aérea — implantação" },
+    { src: "/images/rioafrica/page6_img2.jpeg", caption: "Vista geral — volumetria" },
+  ],
+
+  // ── Plantas ──
+  plantas: [
+    { src: "/images/rioafrica/page7_img1.png", titulo: "Corte Longitudinal" },
+    { src: "/images/rioafrica/page8_img1.png", titulo: "Praça / Acesso" },
+    { src: "/images/rioafrica/page9_img1.png", titulo: "Ateliês / Adm / Doca" },
+    { src: "/images/rioafrica/page10_img1.png", titulo: "Exposições / RT" },
+    { src: "/images/rioafrica/page11_img1.png", titulo: "Terraço / Restaurante" },
+  ],
+
+  // ── Certificações ──
+  certificacoes: [
+    "/images/rioafrica/page24_img1.jpeg",
+    "/images/rioafrica/page24_img2.jpeg",
+  ],
+
+  // ── Imagens Institucionais ──
+  imagensInstitucionais: [
+    "/images/rioafrica/page22_img1.png",
+    "/images/rioafrica/page23_img1.jpeg",
+  ],
+};
+
+export const projects = [fairmont, smartfit, innside, rioafrica];
